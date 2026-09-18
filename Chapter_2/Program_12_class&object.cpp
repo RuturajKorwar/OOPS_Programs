@@ -1,0 +1,32 @@
+//Write a c++ program to create a Test class with data members mark and spi and display the details using an object
+
+#include<iostream>
+using namespace std;
+class Test
+{
+private :
+    int mark;
+    float spi;
+public :
+    void SetData()
+    {
+       /* mark = 270;
+        spi = 6.5;*/
+        cout<<"Enter mark : ";
+        cin>>mark;
+        cout<<"Enter spi : ";
+        cin>>spi;
+    }
+    void DisplayData()
+    {
+        cout<< "Mark= "<<mark<<endl;
+        cout<< "spi= "<<spi;
+    }
+};
+int main()
+{
+    Test o1;
+    o1.SetData();
+    o1.DisplayData();
+    return 0;
+}
