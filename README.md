@@ -41,6 +41,9 @@ Programs based on:
   - Private
   - Protected
 - Constructors
+  - Default
+  - Parameterized
+  - Copy 
 - Destructors
 - Static Data Members
 - Inline Functions
@@ -57,11 +60,12 @@ Programs completed up to:
 
 - Introduction to Inheritance
 - Types of Inheritance
+  - Single Inheritance
+  - Multi-level Inheritance
 - Defining Derived Classes
 - Access Specifiers
 - Base Class and Derived Class
-- Single Inheritance
-- Multi-level Inheritance
+
 
 ---
 
