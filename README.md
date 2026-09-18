@@ -1,9 +1,6 @@
 # OOPS_using_C++
 Collection of my OOPS C++ programs chapter-wise executed during regular OOPS classes in KLE Technological University, Hubli-Dharwad
 
-Collection of my C++ programs completed as part of the
-**Object Oriented Programming using C++** course.
-
 **Course Code:** 26EECE421  
 **Course Title:** Object Oriented Programming using C++
 
