@@ -43,6 +43,7 @@ Programs based on:
   - Copy 
 - Destructors
 - Static Data Members
+- Static Member functions
 - Inline Functions
 - Friend Class
 - Friend Functions
