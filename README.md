@@ -1,9 +1,6 @@
 # OOPS_using_C++
 Collection of my OOPS C++ programs chapter-wise executed during regular OOPS classes in KLE Technological University, Hubli-Dharwad
 
-Collection of my C++ programs completed as part of the
-**Object Oriented Programming using C++** course.
-
 **Course Code:** 26EECE421  
 **Course Title:** Object Oriented Programming using C++
 
@@ -41,6 +38,9 @@ Programs based on:
   - Private
   - Protected
 - Constructors
+  - Default
+  - Parameterized
+  - Copy 
 - Destructors
 - Static Data Members
 - Inline Functions
@@ -57,11 +57,12 @@ Programs completed up to:
 
 - Introduction to Inheritance
 - Types of Inheritance
+  - Single Inheritance
+  - Multi-level Inheritance
 - Defining Derived Classes
 - Access Specifiers
 - Base Class and Derived Class
-- Single Inheritance
-- Multi-level Inheritance
+
 
 ---
 
