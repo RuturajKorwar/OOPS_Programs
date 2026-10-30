@@ -54,15 +54,52 @@ Programs based on:
 
 ## Chapter 3 – Inheritance
 
-Programs completed up to:
+Programs based on:
 
 - Introduction to Inheritance
 - Types of Inheritance
   - Single Inheritance
   - Multi-level Inheritance
+  - Multiple Inheritance
 - Defining Derived Classes
 - Access Specifiers
 - Base Class and Derived Class
+- Function overriding
+- Function overloading
+- Diamond Problem
+- Virtual base class
+- Making a private member inheritable
+
+---
+
+## Chapter 4 - Polymorphism
+
+Programs based on:
+
+- Virtual functions
+- Pure Virtual functions
+- Abstract classes
+- static functions
+- 'this' pointer
+- Operator overloading
+  - Unary
+  - Binary
+- Addition and Subtraction of Complex numbers
+
+---
+
+## Chapter 5 - Exception Handling
+
+- Introduction to Exceptions
+- Throwing an Exception
+- Try Block
+- Exception Handler (Catching an Exception)
+- Multiple Exceptions
+- Exceptions with arguments
+
+---
+
+
 
 
 ---
@@ -85,3 +122,5 @@ OOPS_using_C++/
 └── Chapter_3/
     ├── 01_Single_Inheritance.cpp
     └── ...
+
+    
