@@ -3,7 +3,6 @@
 #include <cstdlib>
 #include <string>
 using namespace std;
-
 class Inches_Ex
 {
 public:
@@ -80,7 +79,5 @@ int main()
         cout << "Inches value of " << e.iValue
              << " is too large." << endl;
     }
-
-    system("pause");
     return 0;
 }
