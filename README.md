@@ -95,6 +95,8 @@ Programs based on:
 - Try Block
 - Exception Handler (Catching an Exception)
 - Multiple Exceptions
+- Catch all block
+- Nested try
 - Exceptions with arguments
 
 ---
