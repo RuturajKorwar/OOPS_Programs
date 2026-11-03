@@ -5,7 +5,7 @@ Collection of my OOPS C++ programs chapter-wise executed during regular OOPS cla
 **Course Title:** Object Oriented Programming using C++
 
 # Student Details
-- Name : Ruturaj Korwar
+- Name : Ruturaj M Korwar
 - Div : C
 - Roll number : 309
 - USN : 01FE23BEC098
