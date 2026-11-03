@@ -4,6 +4,12 @@ Collection of my OOPS C++ programs chapter-wise executed during regular OOPS cla
 **Course Code:** 26EECE421  
 **Course Title:** Object Oriented Programming using C++
 
+# Student Details
+- Name : Ruturaj Korwar
+- Div : C
+- Roll number : 309
+- USN : 01FE23BEC098
+
 ---
 
 ## Chapter 1 – Fundamental Concepts of Object-Oriented Programming
