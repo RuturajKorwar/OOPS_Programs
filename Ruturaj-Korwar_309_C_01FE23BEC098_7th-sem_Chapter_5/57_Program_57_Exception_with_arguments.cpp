@@ -47,7 +47,10 @@ public:
         cin >> inches;
 
         if (inches >= 12.0)
+        {
             throw Inches_Ex("in getdist()", inches);
+        }
+
     }
 
     void showdist()
