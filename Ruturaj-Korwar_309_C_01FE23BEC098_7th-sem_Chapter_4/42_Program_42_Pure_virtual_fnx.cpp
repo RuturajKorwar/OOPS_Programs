@@ -6,43 +6,50 @@ using namespace std;
 class vehicle
 {
 public:
-    int number_of_wheels=2;
-    float mileage=30;
-    float fuel_capacity=10;
-    virtual float display()=0 ;
+    int number_of_wheels = 2;
+    float mileage = 30;
+    float fuel_capacity = 10;
+    virtual void display() = 0;
 };
+
 class car : public vehicle
 {
 public:
-    float display()
+    void display() override
     {
-       // return number_of_wheels*2;
-        return mileage;
-        return fuel_capacity*2;
+        number_of_wheels = 4;
+        mileage = 20;
+        fuel_capacity = 40;
+        cout << "Car Features:" << endl;
+        cout << "Number of wheels: " << number_of_wheels << endl;
+        cout << "Mileage: " << mileage << endl;
+        cout << "Fuel capacity: " << fuel_capacity << endl;
     }
 };
+
 class bike : public vehicle
 {
 public:
-    float display()
+    void display() override
     {
-        return number_of_wheels;
-        return mileage;
-        return fuel_capacity;
+        number_of_wheels = 2;
+        mileage = 30;
+        fuel_capacity = 10;
+        cout << "\nBike Features:" << endl;
+        cout << "Number of wheels: " << number_of_wheels << endl;
+        cout << "Mileage: " << mileage << endl;
+        cout << "Fuel capacity: " << fuel_capacity << endl;
     }
 };
+
 int main()
 {
-    float x,y;
-    vehicle *v,*v1;
+    vehicle *v, *v1;
     car c;
     bike b;
-    v=&c;
-    v1=&b;
-    x= v->display();
-    cout<<x<<endl;
-    y= v1->display();
-    cout<<y;
+    v = &c;
+    v1 = &b;
+    v->display();
+    v1->display();
     return 0;
-
 }

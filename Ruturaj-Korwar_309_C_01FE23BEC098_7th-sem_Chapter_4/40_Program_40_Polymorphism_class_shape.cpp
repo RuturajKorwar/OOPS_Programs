@@ -5,7 +5,7 @@ class Shape
 public:
     virtual void draw()
     {
-        cout<<"Generic shape";
+        cout<<"Generic shape"<<endl;
     }
 };
 class Circle : public Shape
@@ -18,10 +18,13 @@ public:
 };
 int main()
 {
-    //Shape *s = new Circle();
-    Shape *s;
+    Shape s;
     Circle c;
-    s=&c;
-    s->draw();
+    //Shape *s = new Circle();
+    Shape *ptr, *ptr1;
+    ptr=&s;
+    ptr1=&c;
+    ptr->draw();
+    ptr1->draw();
     return 0;
 }
