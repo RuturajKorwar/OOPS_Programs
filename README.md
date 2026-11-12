@@ -96,6 +96,8 @@ Programs based on:
 
 ## Chapter 5 - Exception Handling
 
+Programs based on :
+
 - Introduction to Exceptions
 - Throwing an Exception
 - Try Block
@@ -104,6 +106,18 @@ Programs based on:
 - Catch all block
 - Nested try
 - Exceptions with arguments
+  
+---
+
+## Chapter 6 - Templates and I/O streams
+
+Programs based on :
+- Class templates and Function templates
+- C++ Class Hierarchy
+- File Stream
+- Text File Handling
+- Binary File Handling
+
 ---
 
     
