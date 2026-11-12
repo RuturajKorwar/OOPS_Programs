@@ -1,0 +1,2 @@
+Hello, World!
+Writing to files in C++ is straightforward.
